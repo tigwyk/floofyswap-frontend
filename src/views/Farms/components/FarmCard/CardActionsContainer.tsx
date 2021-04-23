@@ -6,7 +6,7 @@ import { getBep20Contract } from 'utils/contractHelpers'
 import { Button, Flex, Text } from '@pancakeswap-libs/uikit'
 import { Farm } from 'state/types'
 import { useFarmFromSymbol, useFarmUser } from 'state/hooks'
-import useI18n from 'hooks/useI18n'
+import { useTranslation } from 'contexts/Localization'
 import useWeb3 from 'hooks/useWeb3'
 import { useApprove } from 'hooks/useApprove'
 import UnlockButton from 'components/UnlockButton'
@@ -28,7 +28,7 @@ interface FarmCardActionsProps {
 }
 
 const CardActions: React.FC<FarmCardActionsProps> = ({ farm, account, addLiquidityUrl }) => {
-  const TranslateString = useI18n()
+  const { t } = useTranslation()
   const [requestedApproval, setRequestedApproval] = useState(false)
   const { pid, lpAddresses } = useFarmFromSymbol(farm.lpSymbol)
   const { allowance, tokenBalance, stakedBalance, earnings } = useFarmUser(pid)
@@ -62,7 +62,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, account, addLiquidi
       />
     ) : (
       <Button mt="8px" width="100%" disabled={requestedApproval} onClick={handleApprove}>
-        {TranslateString(758, 'Approve Contract')}
+        {t('Approve Contract')}
       </Button>
     )
   }
@@ -75,7 +75,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, account, addLiquidi
           CAKE
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
-          {TranslateString(1072, 'Earned')}
+          {t('Earned')}
         </Text>
       </Flex>
       <HarvestAction earnings={earnings} pid={pid} />
@@ -84,7 +84,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, account, addLiquidi
           {lpName}
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
-          {TranslateString(1074, 'Staked')}
+          {t('Staked')}
         </Text>
       </Flex>
       {!account ? <UnlockButton mt="8px" width="100%" /> : renderApprovalOrStakeButton()}

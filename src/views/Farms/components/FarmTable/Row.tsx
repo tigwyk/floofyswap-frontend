@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
 import { useMatchBreakpoints } from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
+import { useTranslation } from 'contexts/Localization'
 
 import Apr, { AprProps } from './Apr'
 import Farm, { FarmProps } from './Farm'
@@ -65,7 +65,7 @@ const FarmMobileCell = styled.td`
 const Row: React.FunctionComponent<RowProps> = (props) => {
   const { details } = props
   const [actionPanelToggled, setActionPanelToggled] = useState(false)
-  const TranslateString = useI18n()
+  const { t } = useTranslation()
 
   const toggleActionPanel = () => {
     setActionPanelToggled(!actionPanelToggled)
@@ -102,7 +102,7 @@ const Row: React.FunctionComponent<RowProps> = (props) => {
                 return (
                   <td key={key}>
                     <CellInner>
-                      <CellLayout label={TranslateString(736, 'APR')}>
+                      <CellLayout label={t('APR')}>
                         <Apr {...props.apr} hideButton={isMobile} />
                       </CellLayout>
                     </CellInner>
@@ -112,9 +112,7 @@ const Row: React.FunctionComponent<RowProps> = (props) => {
                 return (
                   <td key={key}>
                     <CellInner>
-                      <CellLayout
-                        label={TranslateString(tableSchema[columnIndex].translationId, tableSchema[columnIndex].label)}
-                      >
+                      <CellLayout label={t(tableSchema[columnIndex].label)}>
                         {React.createElement(cells[key], props[key])}
                       </CellLayout>
                     </CellInner>
@@ -138,12 +136,12 @@ const Row: React.FunctionComponent<RowProps> = (props) => {
           </tr>
           <tr>
             <EarnedMobileCell>
-              <CellLayout label={TranslateString(1072, 'Earned')}>
+              <CellLayout label={t('Earned')}>
                 <Earned {...props.earned} />
               </CellLayout>
             </EarnedMobileCell>
             <AprMobileCell>
-              <CellLayout label={TranslateString(736, 'APR')}>
+              <CellLayout label={t('APR')}>
                 <Apr {...props.apr} hideButton />
               </CellLayout>
             </AprMobileCell>
