@@ -1,4 +1,13 @@
 const tokens = {
+  floof: {
+    symbol: 'FLOOF',
+    address: {
+      56: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
+    },
+    decimals: 18,
+    projectLink: 'https://floofyswap.finance/',
+  },
   bnb: {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
@@ -16,7 +25,7 @@ const tokens = {
     symbol: 'TXL',
     address: {
       56: '0x1ffd0b47127fdd4097e54521c9e2c7f0d66aafc5',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://tixl.org/',
@@ -25,7 +34,7 @@ const tokens = {
     symbol: 'COS',
     address: {
       56: '0x96Dd399F9c3AFda1F194182F71600F1B65946501',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.contentos.io/',
@@ -34,7 +43,7 @@ const tokens = {
     symbol: 'BUNNY',
     address: {
       56: '0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51',
-      97: '',
+      97: '0x07d0f72ac29d592cc862134ba54a7665bf6c2d16',
     },
     decimals: 18,
     projectLink: 'https://pancakebunny.finance/',
@@ -43,7 +52,7 @@ const tokens = {
     symbol: 'ALICE',
     address: {
       56: '0xac51066d7bec65dc4589368da368b212745d63e8',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 6,
     projectLink: 'https://www.myneighboralice.com/',
@@ -52,7 +61,7 @@ const tokens = {
     symbol: 'FOR',
     address: {
       56: '0x658A109C5900BC6d2357c87549B651670E5b0539',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.for.tube/home',
@@ -61,7 +70,7 @@ const tokens = {
     symbol: 'BUX',
     address: {
       56: '0x211ffbe424b90e25a15531ca322adf1559779e45',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://getbux.com/bux-crypto/',
@@ -70,7 +79,7 @@ const tokens = {
     symbol: 'NULS',
     address: {
       56: '0x8cd6e29d3686d24d3c2018cee54621ea0f89313b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 8,
     projectLink: 'https://www.nuls.io/',
@@ -79,7 +88,7 @@ const tokens = {
     symbol: 'BELT',
     address: {
       56: '0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://beta.belt.fi/',
@@ -88,7 +97,7 @@ const tokens = {
     symbol: 'RAMP',
     address: {
       56: '0x8519ea49c997f50ceffa444d240fb655e89248aa',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://rampdefi.com/',
@@ -97,7 +106,7 @@ const tokens = {
     symbol: 'BFI',
     address: {
       56: '0x81859801b01764d4f0fa5e64729f5a6c3b91435b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://bearn.fi/',
@@ -106,7 +115,7 @@ const tokens = {
     symbol: 'DEXE',
     address: {
       56: '0x039cb485212f996a9dbb85a9a75d898f94d38da6',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://dexe.network/',
@@ -115,7 +124,7 @@ const tokens = {
     symbol: 'BEL',
     address: {
       56: '0x8443f091997f06a61670b735ed92734f5628692f',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://bella.fi/',
@@ -124,7 +133,7 @@ const tokens = {
     symbol: 'TPT',
     address: {
       56: '0xeca41281c24451168a37211f0bc2b8645af45092',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 4,
     projectLink: 'https://www.tokenpocket.pro/',
@@ -133,7 +142,7 @@ const tokens = {
     symbol: 'WATCH',
     address: {
       56: '0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://yieldwatch.net/',
@@ -142,7 +151,7 @@ const tokens = {
     symbol: 'xMARK',
     address: {
       56: '0x26a5dfab467d4f58fb266648cae769503cec9580',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 9,
     projectLink: 'https://benchmarkprotocol.finance/',
@@ -151,7 +160,7 @@ const tokens = {
     symbol: 'bMXX',
     address: {
       56: '0x4131b87f74415190425ccd873048c708f8005823',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://multiplier.finance/',
@@ -160,7 +169,7 @@ const tokens = {
     symbol: 'IOTX',
     address: {
       56: '0x9678e42cebeb63f23197d726b29b1cb20d0064e5',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://iotex.io/',
@@ -169,7 +178,7 @@ const tokens = {
     symbol: 'BOR',
     address: {
       56: '0x92d7756c60dcfd4c689290e8a9f4d263b3b32241',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.boringdao.com/',
@@ -178,7 +187,7 @@ const tokens = {
     symbol: 'bOPEN',
     address: {
       56: '0xf35262a9d427f96d2437379ef090db986eae5d42',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://opendao.io/',
@@ -187,7 +196,7 @@ const tokens = {
     symbol: 'DODO',
     address: {
       56: '0x67ee3cb086f8a16f34bee3ca72fad36f7db929e2',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://dodoex.io/',
@@ -196,7 +205,7 @@ const tokens = {
     symbol: 'SWINGBY',
     address: {
       56: '0x71de20e0c4616e7fcbfdd3f875d568492cbe4739',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://swingby.network/',
@@ -205,7 +214,7 @@ const tokens = {
     symbol: 'BRY',
     address: {
       56: '0xf859bf77cbe8699013d6dbc7c2b926aaf307f830',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://berrydata.co/',
@@ -214,7 +223,7 @@ const tokens = {
     symbol: 'ZEE',
     address: {
       56: '0x44754455564474a89358b2c2265883df993b12f0',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://zeroswap.io/',
@@ -223,7 +232,7 @@ const tokens = {
     symbol: 'SWGb',
     address: {
       56: '0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://swirgepay.com/',
@@ -232,7 +241,7 @@ const tokens = {
     symbol: 'SFP',
     address: {
       56: '0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.safepal.io/',
@@ -241,7 +250,7 @@ const tokens = {
     symbol: 'LINA',
     address: {
       56: '0x762539b45a1dcce3d36d080f74d1aed37844b878',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://linear.finance/',
@@ -250,7 +259,7 @@ const tokens = {
     symbol: 'LIT',
     address: {
       56: '0xb59490ab09a0f526cc7305822ac65f2ab12f9723',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.litentry.com/',
@@ -259,7 +268,7 @@ const tokens = {
     symbol: 'HGET',
     address: {
       56: '0xc7d8d35eba58a0935ff2d5a33df105dd9f071731',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 6,
     projectLink: 'https://www.hedget.com/',
@@ -268,7 +277,7 @@ const tokens = {
     symbol: 'BDO',
     address: {
       56: '0x190b589cf9fb8ddeabbfeae36a813ffb2a702454',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://bdollar.fi/',
@@ -277,7 +286,7 @@ const tokens = {
     symbol: 'EGLD',
     address: {
       56: '0xbf7c81fff98bbe61b40ed186e4afd6ddd01337fe',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://elrond.com/',
@@ -286,7 +295,7 @@ const tokens = {
     symbol: 'UST',
     address: {
       56: '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mirror.finance/',
@@ -295,7 +304,7 @@ const tokens = {
     symbol: 'wSOTE',
     address: {
       56: '0x541e619858737031a1244a5d0cd47e5ef480342c',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://soteria.finance/#/',
@@ -304,7 +313,7 @@ const tokens = {
     symbol: 'FRONT',
     address: {
       56: '0x928e55dab735aa8260af3cedada18b5f70c72f1b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://frontier.xyz/',
@@ -313,7 +322,7 @@ const tokens = {
     symbol: 'Helmet',
     address: {
       56: '0x948d2a81086a075b3130bac19e4c6dee1d2e3fe8',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.helmet.insure/',
@@ -322,7 +331,7 @@ const tokens = {
     symbol: 'BTCST',
     address: {
       56: '0x78650b139471520656b9e7aa7a5e9276814a38e9',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 17,
     projectLink: 'https://www.1-b.tc/',
@@ -331,7 +340,7 @@ const tokens = {
     symbol: 'BSCX',
     address: {
       56: '0x5ac52ee5b2a633895292ff6d8a89bb9190451587',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://bscex.org/',
@@ -340,7 +349,7 @@ const tokens = {
     symbol: 'TEN',
     address: {
       56: '0xdff8cb622790b7f92686c722b02cab55592f152c',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.tenet.farm/',
@@ -349,7 +358,7 @@ const tokens = {
     symbol: 'bALBT',
     address: {
       56: '0x72faa679e1008ad8382959ff48e392042a8b06f7',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://allianceblock.io/',
@@ -358,7 +367,7 @@ const tokens = {
     symbol: 'ASR',
     address: {
       56: '0x80d5f92c2c8c682070c95495313ddb680b267320',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 2,
     projectLink: 'https://www.chiliz.com',
@@ -367,7 +376,7 @@ const tokens = {
     symbol: 'ATM',
     address: {
       56: '0x25e9d05365c867e59c1904e7463af9f312296f9e',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 2,
     projectLink: 'https://www.chiliz.com',
@@ -376,7 +385,7 @@ const tokens = {
     symbol: 'OG',
     address: {
       56: '0xf05e45ad22150677a017fbd94b84fbb63dc9b44c',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 2,
     projectLink: 'https://www.chiliz.com',
@@ -385,7 +394,7 @@ const tokens = {
     symbol: 'REEF',
     address: {
       56: '0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://reef.finance/',
@@ -394,7 +403,7 @@ const tokens = {
     symbol: 'DITTO',
     address: {
       56: '0x233d91a0713155003fc4dce0afa871b508b3b715',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 9,
     projectLink: 'https://ditto.money/',
@@ -403,7 +412,7 @@ const tokens = {
     symbol: 'JUV',
     address: {
       56: '0xc40c9a843e1c6d01b7578284a9028854f6683b1b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 2,
     projectLink: 'https://www.chiliz.com',
@@ -412,7 +421,7 @@ const tokens = {
     symbol: 'PSG',
     address: {
       56: '0xbc5609612b7c44bef426de600b5fd1379db2ecf1',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 2,
     projectLink: 'https://www.chiliz.com',
@@ -421,7 +430,7 @@ const tokens = {
     symbol: 'VAI',
     address: {
       56: '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://venus.io/',
@@ -439,7 +448,7 @@ const tokens = {
     symbol: 'BLINK',
     address: {
       56: '0x63870a18b6e42b01ef1ad8a2302ef50b7132054f',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 6,
     projectLink: 'https://blink.wink.org',
@@ -448,7 +457,7 @@ const tokens = {
     symbol: 'UNFI',
     address: {
       56: '0x728c5bac3c3e370e372fc4671f9ef6916b814d8b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://unifiprotocol.com',
@@ -457,7 +466,7 @@ const tokens = {
     symbol: 'TWT',
     address: {
       56: '0x4b0f1812e5df2a09796481ff14017e6005508003',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://trustwallet.com/',
@@ -466,7 +475,7 @@ const tokens = {
     symbol: 'HARD',
     address: {
       56: '0xf79037f6f6be66832de4e7516be52826bc3cbcc4',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 6,
     projectLink: 'https://hard.kava.io',
@@ -475,7 +484,7 @@ const tokens = {
     symbol: 'bROOBEE',
     address: {
       56: '0xe64f5cb844946c1f102bd25bbd87a5ab4ae89fbe',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://roobee.io/',
@@ -484,7 +493,7 @@ const tokens = {
     symbol: 'STAX',
     address: {
       56: '0x0da6ed8b13214ff28e9ca979dd37439e8a88f6c4',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'http://stablexswap.com/',
@@ -493,7 +502,7 @@ const tokens = {
     symbol: 'NAR',
     address: {
       56: '0xa1303e6199b319a891b79685f0537d289af1fc83',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://narwhalswap.org/',
@@ -502,7 +511,7 @@ const tokens = {
     symbol: 'NYA',
     address: {
       56: '0xbfa0841f7a90c4ce6643f651756ee340991f99d5',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://nyanswop.org/',
@@ -511,7 +520,7 @@ const tokens = {
     symbol: 'CTK',
     address: {
       56: '0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 6,
     projectLink: 'https://www.certik.foundation/',
@@ -520,7 +529,7 @@ const tokens = {
     symbol: 'INJ',
     address: {
       56: '0xa2b726b1145a4773f68593cf171187d8ebe4d495',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://injectiveprotocol.com/',
@@ -529,7 +538,7 @@ const tokens = {
     symbol: 'SXP',
     address: {
       56: '0x47bead2563dcbf3bf2c9407fea4dc236faba485a',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://swipe.io/',
@@ -538,7 +547,7 @@ const tokens = {
     symbol: 'ALPHA',
     address: {
       56: '0xa1faa113cbe53436df28ff0aee54275c13b40975',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://alphafinance.io/',
@@ -547,7 +556,7 @@ const tokens = {
     symbol: 'XVS',
     address: {
       56: '0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://venus.io/',
@@ -556,7 +565,7 @@ const tokens = {
     symbol: 'SUSHI',
     address: {
       56: '0x947950bcc74888a40ffa2593c5798f11fc9124c4',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://sushi.com/',
@@ -565,7 +574,7 @@ const tokens = {
     symbol: 'COMP',
     address: {
       56: '0x52ce071bd9b1c4b00a0b92d298c512478cad67e8',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://compound.finance/',
@@ -579,11 +588,20 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
   },
+  poof: {
+    symbol: 'POOF',
+    address: {
+      56: '',
+      97: '0xb2591203e4c6247BE1810921DB50F745095a922F',
+    },
+    decimals: 18,
+    projectLink: 'https://floofyswap.finance/',
+  },
   bifi: {
     symbol: 'BIFI',
     address: {
       56: '0xca3f508b8e4dd382ee878a314789373d80a5190a',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://beefy.finance/',
@@ -592,7 +610,7 @@ const tokens = {
     symbol: 'DUSK',
     address: {
       56: '0xb2bd0749dbe21f623d9baba856d3b0f0e1bfec9c',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://dusk.network/',
@@ -601,7 +619,7 @@ const tokens = {
     symbol: 'BUSD',
     address: {
       56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.paxos.com/busd/',
@@ -610,7 +628,7 @@ const tokens = {
     symbol: 'ETH',
     address: {
       56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://ethereum.org/en/',
@@ -619,7 +637,7 @@ const tokens = {
     symbol: 'BETH',
     address: {
       56: '0x250632378e573c6be1ac2f97fcdf00515d0aa91b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://ethereum.org/en/eth2/beacon-chain/',
@@ -628,7 +646,7 @@ const tokens = {
     symbol: 'mAMZN',
     address: {
       56: '0x3947B992DC0147D2D89dF0392213781b04B25075',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mirror.finance/',
@@ -637,7 +655,7 @@ const tokens = {
     symbol: 'mGOOGL',
     address: {
       56: '0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mirror.finance/',
@@ -646,7 +664,7 @@ const tokens = {
     symbol: 'mNFLX',
     address: {
       56: '0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mirror.finance/',
@@ -655,7 +673,7 @@ const tokens = {
     symbol: 'mTSLA',
     address: {
       56: '0xF215A127A196e3988C09d052e16BcFD365Cd7AA3',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mirror.finance/',
@@ -664,7 +682,7 @@ const tokens = {
     symbol: 'LTC',
     address: {
       56: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://litecoin.org/',
@@ -673,7 +691,7 @@ const tokens = {
     symbol: 'USDC',
     address: {
       56: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.centre.io/usdc',
@@ -682,7 +700,7 @@ const tokens = {
     symbol: 'DAI',
     address: {
       56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'http://www.makerdao.com/',
@@ -844,7 +862,7 @@ const tokens = {
     symbol: 'bDIGG',
     address: {
       56: '0x5986d5c77c65e5801a5caa4fae80089f870a71da',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://badger.finance/',
@@ -853,7 +871,7 @@ const tokens = {
     symbol: 'bBadger',
     address: {
       56: '0x1f7216fdb338247512ec99715587bb97bbf96eae',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://badger.finance/',
@@ -862,7 +880,7 @@ const tokens = {
     symbol: 'TRADE',
     address: {
       56: '0x7af173f350d916358af3e218bdf2178494beb748',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://unitrade.app/',
@@ -871,7 +889,7 @@ const tokens = {
     symbol: 'PNT',
     address: {
       56: '0x7a1da9f49224ef98389b071b8a3294d1cc5e3e6a',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://ptokens.io/',
@@ -880,7 +898,7 @@ const tokens = {
     symbol: 'MIR',
     address: {
       56: '0x5b6dcf557e2abe2323c48445e8cc948910d8c2c9',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mirror.finance/',
@@ -889,7 +907,7 @@ const tokens = {
     symbol: 'pBTC',
     address: {
       56: '0xed28a457a5a76596ac48d87c0f577020f6ea1c4c',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://ptokens.io/',
@@ -898,7 +916,7 @@ const tokens = {
     symbol: 'LTO',
     address: {
       56: '0x857b222fc79e1cbbf8ca5f78cb133d1b7cf34bbd',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://ltonetwork.com/',
@@ -907,7 +925,7 @@ const tokens = {
     symbol: 'pCWS',
     address: {
       56: '0xbcf39f0edda668c58371e519af37ca705f2bfcbd',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://game.seascape.network/',
@@ -916,7 +934,7 @@ const tokens = {
     symbol: 'ZIL',
     address: {
       56: '0xb86abcb37c3a4b64f74f59301aff131a1becc787',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 12,
     projectLink: 'https://www.zilliqa.com/',
@@ -925,7 +943,7 @@ const tokens = {
     symbol: 'LIEN',
     address: {
       56: '0x5d684adaf3fcfe9cfb5cede3abf02f0cdd1012e3',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 8,
     projectLink: 'https://lien.finance/',
@@ -934,7 +952,7 @@ const tokens = {
     symbol: 'SWTH',
     address: {
       56: '0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 8,
     projectLink: 'https://switcheo.network/',
@@ -943,7 +961,7 @@ const tokens = {
     symbol: 'DFT',
     address: {
       56: '0x42712dF5009c20fee340B245b510c0395896cF6e',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.dfuture.com/home',
@@ -952,7 +970,7 @@ const tokens = {
     symbol: 'GUM',
     address: {
       56: '0xc53708664b99DF348dd27C3Ac0759d2DA9c40462',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://gourmetgalaxy.io/',
@@ -961,7 +979,7 @@ const tokens = {
     symbol: 'DEGO',
     address: {
       56: '0x3fda9383a84c05ec8f7630fe10adf1fac13241cc',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://bsc.dego.finance/home',
@@ -970,7 +988,7 @@ const tokens = {
     symbol: 'NRV',
     address: {
       56: '0x42f6f551ae042cbe50c739158b4f0cac0edb9096',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://nerve.fi/',
@@ -979,7 +997,7 @@ const tokens = {
     symbol: 'EASY',
     address: {
       56: '0x7c17c8bed8d14bacce824d020f994f4880d6ab3b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://easyfi.network/',
@@ -988,7 +1006,7 @@ const tokens = {
     symbol: 'ODDZ',
     address: {
       56: '0xcd40f2670cf58720b694968698a5514e924f742d',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://oddz.fi/',
@@ -997,7 +1015,7 @@ const tokens = {
     symbol: 'HOO',
     address: {
       56: '0xe1d1f66215998786110ba0102ef558b22224c016',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 8,
     projectLink: 'https://hoo.com/',
@@ -1006,7 +1024,7 @@ const tokens = {
     symbol: 'APYS',
     address: {
       56: '0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://apyswap.com/',
@@ -1015,7 +1033,7 @@ const tokens = {
     symbol: 'BONDLY',
     address: {
       56: '0x96058f8c3e16576d9bd68766f3836d9a33158f89',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.bondly.finance/',
@@ -1024,7 +1042,7 @@ const tokens = {
     symbol: 'TKO',
     address: {
       56: '0x9f589e3eabe42ebc94a44727b3f3531c0c877809',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.tokocrypto.com/',
@@ -1033,7 +1051,7 @@ const tokens = {
     symbol: 'ITAM',
     address: {
       56: '0x04c747b40be4d535fc83d09939fb0f626f32800b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://itam.network/',
@@ -1042,7 +1060,7 @@ const tokens = {
     symbol: 'ARPA',
     address: {
       56: '0x6f769e65c14ebd1f68817f5f1dcdb61cfa2d6f7e',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://arpachain.io/',
@@ -1051,7 +1069,7 @@ const tokens = {
     symbol: 'EPS',
     address: {
       56: '0xa7f552078dcc247c2684336020c03648500c6d9f',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://ellipsis.finance/',
@@ -1060,7 +1078,7 @@ const tokens = {
     symbol: 'JGN',
     address: {
       56: '0xc13b7a43223bb9bf4b69bd68ab20ca1b79d81c75',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://jgndefi.com/',
@@ -1069,7 +1087,7 @@ const tokens = {
     symbol: 'TLM',
     address: {
       56: '0x2222227e22102fe3322098e4cbfe18cfebd57c95',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 4,
     projectLink: 'https://alienworlds.io/',
@@ -1078,7 +1096,7 @@ const tokens = {
     symbol: 'PERL',
     address: {
       56: '0x0f9e4d49f25de22c2202af916b681fbb3790497b',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://perlinx.finance/',
@@ -1087,7 +1105,7 @@ const tokens = {
     symbol: 'ALPA',
     address: {
       56: '0xc5e6689c9c8b02be7c49912ef19e79cf24977f03',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://bsc.alpaca.city/',
@@ -1096,7 +1114,7 @@ const tokens = {
     symbol: 'HZN',
     address: {
       56: '0xc0eff7749b125444953ef89682201fb8c6a917cd',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://horizonprotocol.com/',
@@ -1105,7 +1123,7 @@ const tokens = {
     symbol: 'SUTER',
     address: {
       56: '0x4cfbbdfbd5bf0814472ff35c72717bd095ada055',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://shield.suterusu.io/',
@@ -1114,7 +1132,7 @@ const tokens = {
     symbol: 'CGG',
     address: {
       56: '0x1613957159e9b0ac6c80e824f7eea748a32a0ae2',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://chainguardians.io/',
@@ -1123,7 +1141,7 @@ const tokens = {
     symbol: 'MIX',
     address: {
       56: '0xB67754f5b4C704A24d2db68e661b2875a4dDD197',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://mixie.chainguardians.io/',

@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance',
+        href: 'https://exchange.floofyswap.finance',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://exchange.floofyswap.finance/#/pool',
       },
     ],
   },
@@ -73,19 +73,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://pancakeswap.info',
+        href: 'https://floofyswap.info',
       },
       {
         label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
+        href: 'https://floofyswap.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://pancakeswap.info/pairs',
+        href: 'https://floofyswap.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://pancakeswap.info/accounts',
+        href: 'https://floofyswap.info/accounts',
       },
     ],
   },
@@ -100,11 +100,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://docs.floofyswap.finance/contact-us',
       },
       {
         label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
+        href: 'https://voting.floofyswap.finance',
       },
       {
         label: 'Github',

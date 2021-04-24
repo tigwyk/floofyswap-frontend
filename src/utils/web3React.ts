@@ -17,8 +17,10 @@ const walletconnect = new WalletConnectConnector({
   qrcode: true,
   pollingInterval: POLLING_INTERVAL,
 })
-
+/*
 const bscConnector = new BscConnector({ supportedChainIds: [chainId] })
+*/
+const bscConnector = new BscConnector({ supportedChainIds: [56,97] })
 
 export const connectorsByName: { [connectorName in ConnectorNames]: any } = {
   [ConnectorNames.Injected]: injected,
