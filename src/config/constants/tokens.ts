@@ -1146,6 +1146,33 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://mixie.chainguardians.io/',
   },
+  hakka: {
+    symbol: 'HAKKA',
+    address: {
+      56: '0x1d1eb8e8293222e1a29d2c0e4ce6c0acfd89aaac',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://hakka.finance/',
+  },
+  xed: {
+    symbol: 'XED',
+    address: {
+      56: '0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://www.exeedme.com/',
+  },
+  τbtc: {
+    symbol: 'τBTC',
+    address: {
+      56: '0x2cd1075682b0fccaadd0ca629e138e64015ba11c',
+      97: '',
+    },
+    decimals: 9,
+    projectLink: 'https://www.btcst.finance/',
+  },
 }
 
 export default tokens
