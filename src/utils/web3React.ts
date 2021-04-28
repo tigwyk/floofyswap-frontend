@@ -20,7 +20,7 @@ const walletconnect = new WalletConnectConnector({
 /*
 const bscConnector = new BscConnector({ supportedChainIds: [chainId] })
 */
-const bscConnector = new BscConnector({ supportedChainIds: [56,97] })
+const bscConnector = new BscConnector({ supportedChainIds: [56, 97] })
 
 export const connectorsByName: { [connectorName in ConnectorNames]: any } = {
   [ConnectorNames.Injected]: injected,
