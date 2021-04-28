@@ -1150,7 +1150,7 @@ const tokens = {
     symbol: 'HAKKA',
     address: {
       56: '0x1d1eb8e8293222e1a29d2c0e4ce6c0acfd89aaac',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://hakka.finance/',
@@ -1159,7 +1159,7 @@ const tokens = {
     symbol: 'XED',
     address: {
       56: '0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 18,
     projectLink: 'https://www.exeedme.com/',
@@ -1168,7 +1168,7 @@ const tokens = {
     symbol: 'τBTC',
     address: {
       56: '0x2cd1075682b0fccaadd0ca629e138e64015ba11c',
-      97: '',
+      97: '0x249c026ca1432d78bf96dae2d4d012243f525414',
     },
     decimals: 9,
     projectLink: 'https://www.btcst.finance/',

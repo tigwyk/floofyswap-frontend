@@ -33,7 +33,7 @@ export default {
   },
   claimRefund: {
     56: '0xE7e53A7e9E3Cf6b840f167eF69519175c497e149',
-    97: '',
+    97: '0xE7e53A7e9E3Cf6b840f167eF69519175c497e149',
   },
   pointCenterIfo: {
     56: '0x3C6919b132462C1FEc572c6300E83191f4F0012a',
