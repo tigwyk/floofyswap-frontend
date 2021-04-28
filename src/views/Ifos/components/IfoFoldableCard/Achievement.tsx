@@ -33,6 +33,7 @@ const StyledLinkExternal = styled(LinkExternal)`
 const Achievement: React.FC<Props> = ({ ifo, publicIfoData }) => {
   const TranslateString = useI18n()
   const tokenName = ifo.token.symbol.toLowerCase()
+  const campaignTitle = ifo.name
   const minLpForAchievement = MIN_DOLLAR_FOR_ACHIEVEMENT.div(publicIfoData.currencyPriceInUSD).toNumber()
   return (
     <Container>
@@ -43,8 +44,8 @@ const Achievement: React.FC<Props> = ({ ifo, publicIfoData }) => {
             {TranslateString(999, 'Achievement:')}
           </Text>
           <Flex>
-            <Text bold mr="8px">{`${TranslateString(999, 'IFO Shopper:')} ${tokenName}`}</Text>
-            <Flex>
+            <Text bold mr="8px">{`${TranslateString(999, 'IFO Shopper:')} ${campaignTitle}`}</Text>
+            <Flex alignItems="center" mr="8px">
               <PrizeIcon color="textSubtle" width="16px" mr="4px" />
               <Text color="textSubtle">{publicIfoData.numberPoints}</Text>
             </Flex>
@@ -54,7 +55,7 @@ const Achievement: React.FC<Props> = ({ ifo, publicIfoData }) => {
           </Text>
         </Flex>
       </Flex>
-      <StyledLinkExternal href={ifo.articleUrl}>{`Learn more about ${ifo.token.symbol}`}</StyledLinkExternal>
+      <StyledLinkExternal href={ifo.articleUrl}>{`Learn more about ${campaignTitle}`}</StyledLinkExternal>
     </Container>
   )
 }
